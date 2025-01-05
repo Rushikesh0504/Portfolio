@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio - Rushikesh Nilesh Dhenge</title>
+  <link rel="stylesheet" href="portg.css">
+</head>
+
+<body>
+
+  <header>
+    <div class="logo">
+      <h1>Rushikesh Nilesh Dhenge</h1>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <h2>Hello, I'm Rushikesh</h2>
+      <p>
+        I'm a passionate Software Engineer driven to create user-friendly and impactful web applications.
+        With expertise in JavaScript, React, and Node.js, I'm able to build robust and scalable solutions.
+        My background includes developing e-commerce platforms and collaborating on cross-functional teams.
+        I'm always eager to learn and contribute to innovative projects that make a difference
+      </p>
+      <a href="#about" class="btn">Learn More</a>
+    </div>
+  </section>
+
+  <section id="about">
+    <div class="container">
+      <h2>About Me</h2>
+      <div class="about-content">
+        <div class="about-text">
+          <p>I am a highly motivated and results-oriented Computer Science undergraduate at P.R.Pote Patil College of
+            Engineering and Management. I am eager to apply my academic knowledge and develop practical skills in
+            software development, particularly in <span class="highlight">web development</span> and <span
+              class="highlight">data science</span>. I am a fast learner with a strong work ethic and a passion for
+            creating innovative solutions.</p>
+          <p>I am actively involved in departmental technical activities and project competition and am eager to gain
+            hands-on experience through internships and personal projects. I am a quick learner with a strong
+            problem-solving approach and a keen interest in machine learning, artificial intelligence </p>
+        </div>
+        <div class="about-image">
+          <img src="profile.jpeg" alt="Profile Picture">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects">
+    <div class="container">
+      <h2>Projects</h2>
+      <div class="project-grid">
+        <div class="project">
+          <img src="project1.o.png" alt="Project 1">
+          <h3>Project 1</h3>
+          <h4>CheckBags</h4>
+          <p>CheckBags is a luggage dropshipping service designed to simplify travel. Customers book online, providing
+            their arrival airport, date, and desired destination. CheckBags partners with local couriers to pick up
+            luggage from the customer's location and deliver it to their chosen address. This service offers travelers
+            convenience, time-saving, and peace of mind by eliminating the hassle of carrying luggage throughout their
+            journey. CheckBags leverages technology to streamline the booking process and manage logistics, creating a
+            seamless experience for both customers and businesses..</p>
+        </div>
+        <div class="project">
+          <img src="project2.jpg" alt="Project 2">
+          <h3>Project 2</h3>
+          <h4>Foody</h4>
+          <p>This website, called "Foody," is designed to be a captivating online dining experience. The homepage
+            immediately sets the tone with the tagline "It's not just food, it's an experience." This is further
+            emphasized by the high-quality image of a beautifully plated pasta dish, inviting users to explore the menu.
+            The website offers a 5% discount for first-time orders, encouraging new customers to try the restaurant.
+            Users can easily view the menu or book a table directly from the homepage. Additionally, the website
+            displays customer reviews, showcasing positive feedback and building trust with potential diners.</p>
+        </div>
+        <div class="project">
+          <img src="project3.png" alt="Project 3">
+          <h3>Project 3</h3>
+          <h4>FeedBack FORM</h4>
+          <p>This project presents a user-friendly feedback form with fields for Name, Email, Subject, and a detailed
+            message. The form is connected to a backend system, enabling secure data storage, automated processing, and
+            potential user management. This integration enhances the functionality of the form by allowing for data
+            analysis, report generation, and controlled access to feedback information. The form's clean design and
+            backend support make it a valuable tool for gathering user insights and improving services or products based
+            on collected feedback. Future enhancements could include features like a rating system, file uploads,
+            customizable fields, and an analytics dashboard to further enhance its capabilities.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills">
+    <div class="container">
+      <h2>Skills</h2>
+      <ul class="skills-list">
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>React</li>
+        <li>Node.js</li>
+        <li>Python</li>
+        <li>Java</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="container">
+      <h2>Contact</h2>
+      <!-- <form id="contact-form">
+        <div class="form-group">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" placeholder="Your Name" required>
+        </div>
+        <div class="form-group">
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" placeholder="Your Email" required>
+        </div>
+        <div class="form-group">
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+        </div>
+        <div class="contactNUM">
+          <label for="phone">Phone:9960452940</label>
+        </div>
+        <button type="submit">Send Message</button>
+      </form> -->
+      <form action="https://formspree.io/f/xgvvzjjr" method="POST">
+        <label for="">your name</label>
+        <input type="text" name="name" placeholder="Your Name">
+        <label for="">your email</label>
+        <input type="email" name="_replyto " placeholder="Your Email">
+        <label for="">message</label>
+        <textarea name="message" placeholder="Your Message"></textarea>
+        <hr>
+        <button type="submit">Send</button>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; Rushikesh Nilesh Dhenge - 2024</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
